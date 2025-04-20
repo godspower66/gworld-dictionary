@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GWorld Dictionary</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #eef2f3;
+      color: #333;
+    }
+    header {
+      background: #283593;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .search-container {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .word-display {
+      margin-top: 1.5rem;
+    }
+    .pronounce {
+      margin-top: 0.5rem;
+    }
+    .comment-box {
+      margin-top: 2rem;
+    }
+    textarea {
+      width: 100%;
+      height: 80px;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      background: #283593;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .translator {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    footer {
+      background: #283593;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GWorld Dictionary</h1>
+    <p>Learn new words every day. Define your world.</p>
+  </header>
+
+  <div class="search-container">
+    <input type="text" placeholder="Search for a word..." />
+    
+    <div class="word-display">
+      <h2>Word of the Day: <em>Resilience</em></h2>
+      <p><strong>Definition:</strong> The ability to recover quickly from difficulties; toughness.</p>
+      <div class="pronounce">
+        <button onclick="alert('🔊 Pronunciation feature coming soon!')">Play Pronunciation</button>
+      </div>
+    </div>
+
+    <div class="comment-box">
+      <h3>Leave a Comment</h3>
+      <textarea placeholder="Your thoughts..."></textarea><br>
+      <button onclick="alert('Comment submitted and sent to admin email!')">Submit</button>
+    </div>
+
+    <div class="translator">
+      <h4>🌍 Translate this page</h4>
+      <p>[Google Translate integration placeholder]</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 GWorld Dictionary. All rights reserved.
+  </footer>
+</body>
+</html>
